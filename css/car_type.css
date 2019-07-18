@@ -1,0 +1,192 @@
+.city {
+    display: block;
+}
+.city .city-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+.city .city-wrapper .cities .title {
+    height: 28px;
+    padding-left: 16px;
+    line-height: 28px;
+    background-color: #f5f5f5;
+    font-family: Helvetica;
+    font-size: 1.2rem;
+    color: #878787;
+}
+.city .city-wrapper .cities ul {
+    list-style: none;
+    padding: 0;
+}
+.city .city-wrapper .cities .item {
+    height: 44px;
+    padding: 0 16px;
+    line-height: 44px;
+    font-size: 1.6rem;
+}
+.city .city-wrapper .cities .item .name {
+    display: block;
+    position: relative;
+}
+.city .city-wrapper .cities .item .name:before,
+.city .city-wrapper .cities .item .name:after {
+    display: block;
+    position: absolute;
+    border-top: 1px solid #e5e5e5;
+    left: 0;
+    width: 100%;
+    content: ' ';
+}
+.city .city-wrapper .cities .item .name:before {
+    display: none;
+    top: 0;
+}
+.city .city-wrapper .cities .item .name:after {
+    display: block;
+    bottom: 0;
+}
+.city .city-wrapper .cities .item:active {
+    background-color: #f0f0f0;
+}
+.city .city-wrapper .cities .item:last-child .name:after {
+    display: none;
+}
+.city .city-wrapper .shortcut {
+    position: absolute;
+    z-index: 30;
+    width: 40px;
+    right: 0;
+    font-family: Helvetica;
+}
+.city .city-wrapper .shortcut .item {
+    height: 15px;
+    padding-top: 4px;
+    padding-left: 24px;
+    text-align: center;
+    font-size:15px;
+    color: #896A0D;
+}
+ 
+			
+			
+	
+	.showLetter {
+				position: fixed;
+				color:#896A0D;
+				width: 50px;
+				height: 50px;
+				top: 45%;
+				left: 45%;
+				border-radius: 10%;
+				border: #896A0D 1px solid;
+				text-align: center;
+				z-index: 9999;
+				display: none;
+			}
+			
+			.showLetter span {
+				width: 50px;
+				height: 50px;
+				line-height: 50px;
+				font-size: 30px;
+			}
+			/*设置top*/
+			/*#car_ty {*/
+			/*position: relative;*/
+			/*top: 5px;*/
+			/*}*/
+			/*二级菜单div视图容器*/
+			
+			.conts {
+			overflow: auto;
+			display: none;
+			width: 80%;
+			height: 100%;
+			right: 0;
+			box-shadow: 0px 0px 2px 2px #e0e0e0;
+			background-color: #EFEFF4;
+			position: fixed;
+			z-index: 2;
+			}
+			/*标题*/
+			
+			.conts .cont_ser {
+				overflow: auto;
+				position: fixed;
+				top: 0;
+				bottom: 0;
+				width: 100%;
+			}
+			/*车系*/
+			
+			.car_series {
+				overflow: auto;
+				background-color: #fff;
+				height: 28px;
+				padding-left: 16px;
+				line-height: 28px;
+				background-color: #f5f5f5;
+				font-family: Helvetica;
+				font-size: 1.2rem;
+				color: #878787;
+			}
+			
+			.car_seriess {
+				overflow: auto;
+				display: block;
+				position: relative;
+				margin: 0;
+				border: 0;
+				vertical-align: baseline;
+				height: 44px;
+				padding: 0 16px;
+				line-height: 44px;
+				font-size: 1.6rem;
+				border-top: 1px solid #e5e5e5;
+			}
+			/*三级菜单*/
+			
+			.car_bse {
+				overflow: auto;
+				display: none;
+				width: 65%;
+				height: 100%;
+				right: 0;
+				box-shadow: 0px 0px 2px 2px #e0e0e0;
+				background-color: #EFEFF4;
+				position: fixed;
+				z-index: 3;
+			}
+			
+			.car_bse .cont_ser {
+				overflow: auto;
+				position: fixed;
+				width: 100%;
+			}
+			
+			.carbse_ser {
+				overflow: auto;
+				display: block;
+				position: relative;
+				margin: 0;
+				border-top: 1px solid #e5e5e5;
+				vertical-align: baseline;
+				height: 44px;
+				padding: 0 16px;
+				width: 230px;
+				line-height: 44px;
+				font-size: 1.6rem;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap
+			}
+	
+	
+			
+@media only screen and (max-height: 600px) {
+    .city .city-wrapper .shortcut .item {
+        padding-top: 3px;
+    }
+}

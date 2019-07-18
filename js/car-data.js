@@ -1,0 +1,89 @@
+var carData = [
+	{
+		shou_zm:'A',
+		brand:[
+			{brand:'brand1',
+				product:[
+					{
+						vender:'vender1',
+						car_series:[
+							{car_series:'car_series1'},
+							{car_series:'car_series2'},
+							{car_series:'car_series3'},
+						]
+					}
+				]
+			},
+			{brand:'brand2',
+				product:[
+					{
+						vender:'vender1',
+						car_series:[
+							{car_series:'car_series1'},
+							{car_series:'car_series2'},
+							{car_series:'car_series3'},
+						]
+					}
+				]
+			},
+			{brand:'brand3',
+				product:[
+					{
+						vender:'vender1',
+						car_series:[
+							{car_series:'car_series1'},
+							{car_series:'car_series2'},
+							{car_series:'car_series3'},
+						]
+					}
+				]
+			},
+			
+		]
+	},
+	{
+		shou_zm:'B',
+		brand:[
+			{brand:'brand1',},
+			{brand:'brand2',},
+			{brand:'brand3',},
+			
+		]
+	},
+	{
+		shou_zm:'C',
+		brand:[
+			{brand:'brand1',},
+			{brand:'brand2',},
+			{brand:'brand3',},
+			
+		]
+	},
+	{
+		shou_zm:'D',
+		brand:[
+			{brand:'brand1',},
+			{brand:'brand2',},
+			{brand:'brand3',},
+			
+		]
+	},
+	{
+		shou_zm:'E',
+		brand:[
+			{brand:'brand1',},
+			{brand:'brand2',},
+			{brand:'brand3',},
+			
+		]
+	},
+	{
+		shou_zm:'F',
+		brand:[
+			{brand:'brand1',},
+			{brand:'brand2',},
+			{brand:'brand3',},
+			
+		]
+	},
+]
