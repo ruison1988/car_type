@@ -1,13 +1,13 @@
-.city {
+.car {
     display: block;
 }
-.city .city-wrapper {
+.car .car-wrapper {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
 }
-.city .city-wrapper .cities .title {
+.car .car-wrapper .cities .title {
     height: 28px;
     padding-left: 16px;
     line-height: 28px;
@@ -16,22 +16,24 @@
     font-size: 1.2rem;
     color: #878787;
 }
-.city .city-wrapper .cities ul {
-    list-style: none;
-    padding: 0;
+.car .car-wrapper .cities ul {
+    
+list-style: none;
+    
+padding: 0;
 }
-.city .city-wrapper .cities .item {
+.car .car-wrapper .cities .item {
     height: 44px;
     padding: 0 16px;
     line-height: 44px;
     font-size: 1.6rem;
 }
-.city .city-wrapper .cities .item .name {
+.car .car-wrapper .cities .item .name {
     display: block;
     position: relative;
 }
-.city .city-wrapper .cities .item .name:before,
-.city .city-wrapper .cities .item .name:after {
+.car .car-wrapper .cities .item .name:before,
+.car .car-wrapper .cities .item .name:after {
     display: block;
     position: absolute;
     border-top: 1px solid #e5e5e5;
@@ -39,31 +41,34 @@
     width: 100%;
     content: ' ';
 }
-.city .city-wrapper .cities .item .name:before {
+.car .car-wrapper .cities .item .name:before {
     display: none;
     top: 0;
 }
-.city .city-wrapper .cities .item .name:after {
+.car .car-wrapper .cities .item .name:after {
     display: block;
     bottom: 0;
 }
-.city .city-wrapper .cities .item:active {
+.car .car-wrapper .cities .item:active {
     background-color: #f0f0f0;
 }
-.city .city-wrapper .cities .item:last-child .name:after {
+.car .car-wrapper .cities .item:last-child .name:after {
     display: none;
 }
-.city .city-wrapper .shortcut {
+.car .car-wrapper .shortcut {
     position: absolute;
     z-index: 30;
     width: 40px;
     right: 0;
     font-family: Helvetica;
 }
-.city .city-wrapper .shortcut .item {
+.car .car-wrapper .shortcut ul {
+	list-style: none;
+	padding: 0;
+}
+.car .car-wrapper .shortcut .item {
     height: 15px;
     padding-top: 4px;
-    padding-left: 24px;
     text-align: center;
     font-size:15px;
     color: #896A0D;
@@ -109,6 +114,13 @@
 			background-color: #EFEFF4;
 			position: fixed;
 			z-index: 2;
+			}
+			.conts_mask{
+				position:fixed;
+				width: 100%;
+				height:100%;
+				background-color: #0000000f;
+				display: none;
 			}
 			/*标题*/
 			
@@ -186,7 +198,7 @@
 	
 			
 @media only screen and (max-height: 600px) {
-    .city .city-wrapper .shortcut .item {
+    .car .car-wrapper .shortcut .item {
         padding-top: 3px;
     }
 }
